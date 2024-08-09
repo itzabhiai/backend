@@ -7,7 +7,7 @@ const port = process.env.PORT || 1000;
 
 // Use the cors middleware to allow cross-origin requests
 app.use(cors({
-  origin: 'https://asquerenest.netlify.app/', 
+  origin: 'https://asquarenest.com', 
   methods: ['GET', 'POST'],
 }));
 

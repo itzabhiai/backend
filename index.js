@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors'); // Import the cors middleware
 
 const app = express();
-const port = process.env.PORT || 1000;
+const port = process.env.PORT || 5000;
 
 // Use the cors middleware to allow cross-origin requests
 app.use(cors({
